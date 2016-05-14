@@ -1,5 +1,7 @@
-# note
-This is php project
-Feature:
+# Note Project
+##Technology:
+  - PHP
+  - MYSQL
+##Feature:
   - Create and management note.
-Date: 2014
+##Date: 2014
