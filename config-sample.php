@@ -1,5 +1,5 @@
 <?php  
-	define('SITE', 'http://note.php.local');
+	define('SITE', 'http://note.local');
 	define("FOLDER", "application");
 	define("HOME_URL", SITE."/".FOLDER);
 	define("ROOT", realpath(dirname(__FILE__))."/");
@@ -8,7 +8,7 @@
 
 	define('DB_TYPE', 'mysql');
 	define('DB_HOST', 'localhost');
-	define('DB_NAME', 'php.note');
+	define('DB_NAME', 'note');
 	define('DB_USER', 'root');
 	define('DB_PASS', 'root');
 

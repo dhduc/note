@@ -35,13 +35,6 @@ CREATE TABLE IF NOT EXISTS `admin` (
   `datetime` datetime DEFAULT NULL
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `admin`
---
-
-INSERT INTO `admin` (`admin_id`, `email`, `username`, `password`, `role`, `datetime`) VALUES
-(1, 'info@gmail.com', 'admin', '1234567', 'admin', '2015-04-02 00:00:00');
-
 -- --------------------------------------------------------
 
 --
@@ -128,13 +121,6 @@ CREATE TABLE IF NOT EXISTS `user` (
   `password` varchar(128) NOT NULL,
   `datetime` datetime DEFAULT NULL
 ) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`user_id`, `email`, `username`, `fullname`, `password`, `datetime`) VALUES
-(42, 'huuduc.uneti@gmail.com', 'huuduc', NULL, '446dfb8cc93f08c659b8498a3631e2a9e0523d145567ece0b652c933f97cdf44', '2015-06-07 08:43:16');
 
 --
 -- Indexes for dumped tables
